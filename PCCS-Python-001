@@ -1,0 +1,17 @@
+Point-Code Code Specification of Python
+Number: 001    Date:2021/1/15    Author: Albert Z
+
+PREFACE:
+We try to comply with the code specification in PEP8 specification(https://legacy.python.org/dev/peps/pep-0008/).
+For some meaningful reasons, there are some small adjustments and unique specifications.
+ 
+TEXT:
+1. When you write a single-sentence comment in more than 1 lines, it is better to break it from the punctuation and write '\' at the beginning of the next line.
+2. After experiment, for comment, it is better to keep 2-space width to code and 1-sapce width to '#'.
+3. In code, 60 '#' and the following title ('###'+ ordinal + middle title +'###')split multiple 'part's of the code; '###'+ keyword split multiple 'block's of the code; A blank line or line comment split multiple 'paragraph's of the code.
+4. For internationalization and versatility, All the comment in the code are in English.
+5. Reduce the use of chain type, several commands in one line or several operations in one command.
+6. Try to replace functions with methods and modules with classes.
+7. Reduce the use of private objects or protected objects.
+
+THE END OF ALL
